@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en" dir="ltr">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TalkTune</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+        <link rel="icon" href="icons8-data-processing-flaticons-lineal-color-32.png">
+    </head>
+    <body>
+        <button class="btn">></button>
+        <div id="userSpeech"></div>
+        <form action="">
+            <input type="text" placeholder="Ttile" id="title" name="title">
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type Here..."></textarea>
+            <div>
+                <button>Submit</button>
+            <button class="speek">Play 🔊</button>
+            </div>
+            <div class="controls">
+                <label>Pitch:
+                    <input type="range" id="pitch" name="pitch">
+                    Rate:
+                    <input type="range" id="rate" name="rate">
+                    Volume:
+                    <input type="range" id="volume" name="volume">
+                </label>
+            </div>
+            
+        </form>
+        <script src="uuid.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
